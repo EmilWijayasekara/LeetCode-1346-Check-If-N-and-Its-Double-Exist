@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode id=1346 lang=java
- *
- * [1346] Check If N and Its Double Exist
- */
-
-// @lc code=start
 class Solution {
     public boolean checkIfExist(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
@@ -17,4 +10,3 @@ class Solution {
         return false;
     }
 }
-// @lc code=end
